@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto:wght@300;500&display=swap');
+
+* {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+
+
+/*-------- Seccion Index------*/
+
+body {
+    background-image: url(../img/triang.webp);
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+
+
+
+
+#imgLogo {
+    display: block;
+    width: 12rem;
+    margin: 10px auto;
+
+
+}
+
+ul li {
+    padding: 1rem;
+    border: solid 1px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 1rem;
+
+}
+
+.TransfNav:hover{
+
+    transform: scale(0.8);
+    transition: all .3s;
+}
+
+h2 {
+    color: rgb(43, 42, 42);
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+
+header p {
+    font-size: 3rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arizonia, sans-serif;
+    font-size: 4rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.centradoImg {
+    display: inline-block;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 40rem;
+
+}
+
+/*-------- Seccion Index------*/
+
+
+
+
+/*------ Seccion Acerca De------*/
+
+#VideoAcercaDe {
+    display: flex;
+    height: 60rem;
+
+}
+
+#Mapa {
+    display: flex;
+    height: 60rem;
+    width: 40rem;
+
+}
+
+
+.AcercaDe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.Descripcion {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+
+}
+
+.BoxAcercaDe {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: solid;
+    height: auto;
+    width: 45rem;
+    margin: 4rem 1rem;
+    padding: 1rem;
+
+}
+
+/*------ Seccion Acerca De------*/
+
+
+
+
+/*------ Seccion Preguntas Frecuentes ------*/
+
+#PreguntasF {
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    height: 50rem;
+}
+
+.PreguntasFrecuentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.BoxPreguntas {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    height: 46rem;
+    width: 35rem;
+    box-shadow: 18px 16px 15px 1px rgba(82,79,79,0.75);
+-webkit-box-shadow: 18px 16px 15px 1px rgba(82,79,79,0.75);
+-moz-box-shadow: 18px 16px 15px 1px rgba(82,79,79,0.75);
+
+}
+
+
+
+
+/*------ Seccion Preguntas Frecuentes ------*/
+
+
+
+
+
+/*------ Seccion Footer ------*/
+
+#RedesText {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+#RedesTw {
+    display: block;
+    margin: 1rem auto;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+#RedesFb {
+    display: block;
+    margin: 1rem 1rem;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+#RedesIg {
+    display: block;
+    margin: 1rem auto;
+    width: 5.3rem;
+    height: 5.3rem;
+
+}
+
+#divP {
+    display: flex;
+    transition: all .5s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgba(250, 250, 250, 0.7);
+    
+}
+.GirarPreg:hover{
+    transform: rotate(45deg) scale(1.2);
+    
+    transition: all .4s;
+}
+
+/*------ Seccion Footer ------*/
+
+
+
+
+
+
+/* ------ Seccion Trabajos ------*/
+
+
+
+.Grid-Container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-rows: repeat(6, 1fr);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Grid-Container1 div img {
+    display: flex;
+    width: 40rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.MoveImgD:hover{
+    transform: scale(2) translate(50%) ;
+    transition: all .3s;
+}
+
+.MoveImg:hover{
+    transform: scale(2)  ;
+    transition: all .3s;
+}
+.MoveImgI:hover{
+    transform: scale(2) translate(-50%) ;
+    transition: all .3s;
+}
+/* ------ Seccion Trabajos ------*/
+
+
+
+
+
+
+/*------ Seccion Contacto------*/
+
+#Contactanos {
+    font-family: Arizonia, sans-serif;
+    margin-left: 1rem;
+    font-size: 5rem;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 1rem;
+}
+
+form fieldset label {
+    font-size: 2rem;
+}
+
+#Datos {
+    font-size: 3rem;
+}
+
+.Form {
+    display: block;
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+/*------ Seccion Contacto------*/
+
+
+
+#Mapa {
+    display: flex;
+    height: 60rem;
+    width: 40rem;
+
+}
+
+
+/* ------ Media Query ------ */
+
+@media only screen and (min-width: 350px) {
+    .Grid-Container1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(22, 1fr);
+    }
+
+    .Grid-Container1 div img {
+        display: flex;
+        width: 32rem;
+        border-radius: 1.5rem;
+        margin-left: 2.8rem;
+    }
+
+    .centradoImg {
+        width: 35rem;
+        height: 35rem;
+        margin-left: 1rem;
+    }
+
+    #Mapa {
+        display: flex;
+        height: 50rem;
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .Grid-Container1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(22, 1fr);
+    }
+
+    .Grid-Container1 div img {
+        display: flex;
+        width: 32rem;
+        border-radius: 1.5rem;
+        margin-left: 4.6rem;
+    }
+
+    .centradoImg {
+        width: 35rem;
+        height: 35rem;
+        margin-left: 3rem;
+    }
+
+    #Mapa {
+        display: flex;
+        height: 60rem;
+        width: 40rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .Grid-Container1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+
+    }
+
+    .Grid-Container1 div img {
+        display: flex;
+        width: 35rem;
+        border-radius: 1.5rem;
+        margin-left: 1.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 1030px) {
+    .Grid-Container1 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .Grid-Container1 div img {
+        display: flex;
+        width: 37rem;
+        border-radius: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .BoxAcercaDe {
+        margin: 1rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 1920px) {
+    .Grid-Container1 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .Grid-Container1 div img {
+        display: flex;
+        width: 40rem;
+        border-radius: 1.5rem;
+        margin-left: 4.2rem;
+    }
+
+}
+
+/* ------ Media Query ------ */
+
+
+
