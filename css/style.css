@@ -233,7 +233,7 @@ footer {
     
 }
 .GirarPreg:hover{
-    transform: rotate(45deg) scale(1.2);
+    transform: rotate(46deg) scale(1.2);
     
     transition: all .4s;
 }
