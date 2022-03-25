@@ -29,7 +29,7 @@ body {
 #imgLogo {
     display: block;
     width: 12rem;
-    margin: 10px auto;
+    margin: 10px;
 
 
 }
@@ -48,12 +48,6 @@ ul li {
 
     transform: scale(0.8);
     transition: all .3s;
-}
-
-h2 {
-    color: rgb(43, 42, 42);
-    font-size: 3rem;
-    margin: 1rem;
 }
 
 
@@ -80,13 +74,16 @@ ul li a {
     text-align: center;
 }
 
-.centradoImg {
-    display: inline-block;
-    margin: 1.5rem;
-    border-radius: 1rem;
-    width: 40rem;
-    height: 40rem;
+ .centradoImg {
+    
+    width: 120px;
+    height: 120px;
+    
 
+}  
+.clasebs{
+    width: 70rem;
+    margin: 10px auto;
 }
 
 /*-------- Seccion Index------*/
@@ -133,7 +130,7 @@ ul li a {
     background-color: rgba(255, 255, 255, 0.9);
     border: solid;
     height: auto;
-    width: 45rem;
+    width: 58rem;
     margin: 4rem 1rem;
     padding: 1rem;
 
@@ -167,7 +164,7 @@ ul li a {
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
-    height: 46rem;
+    height: 60rem;
     width: 35rem;
     box-shadow: 18px 16px 15px 1px rgba(82,79,79,0.75);
 -webkit-box-shadow: 18px 16px 15px 1px rgba(82,79,79,0.75);
@@ -267,7 +264,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.MoveImgD:hover{
+/* .MoveImgD:hover{
     transform: scale(2) translate(50%) ;
     transition: all .3s;
 }
@@ -279,7 +276,7 @@ footer {
 .MoveImgI:hover{
     transform: scale(2) translate(-50%) ;
     transition: all .3s;
-}
+} */
 /* ------ Seccion Trabajos ------*/
 
 
