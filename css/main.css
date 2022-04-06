@@ -164,7 +164,7 @@ div a img:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 2rem; }
 
 .Descripcion {
@@ -178,8 +178,7 @@ div a img:hover {
   background-color: rgba(255, 255, 255, 0.9);
   border: solid;
   height: auto;
-  width: 58rem;
-  margin: 4rem 1rem;
+  width: 60rem;
   padding: 1rem; }
 
 #Contactanos {
