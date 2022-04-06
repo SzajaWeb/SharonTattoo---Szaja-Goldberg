@@ -1,0 +1,90 @@
+ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+ul {
+    li {
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: Arizonia, sans-serif;
+            font-size: 4rem;
+        }
+    }
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.centradoImg {
+
+    width: 120px;
+    height: 120px;
+
+
+}
+
+.clasebs {
+    width: 70rem;
+    margin: 10px auto;
+}
+
+#BtnHambTam {
+
+    .navbar-toggler {
+        padding: 1rem 2rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+}
+
+#BtnHamb {
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 2.5em;
+        height: 2.5em;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+
+#imgLogo {
+    display: block;
+    width: 12rem;
+    margin: 10px;
+
+
+}
+
+ul {
+
+    li {
+
+
+        padding: 1rem;
+        border: solid 1px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        border-radius: 10px;
+        margin: 1rem;
+
+        &:hover {
+
+            transform: scale(0.8);
+            transition: all .3s;
+        }
+    }
+
+
+}

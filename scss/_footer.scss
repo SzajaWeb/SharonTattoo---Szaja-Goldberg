@@ -1,0 +1,59 @@
+#RedesText {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+#RedesTw {
+    display: block;
+    margin: 1rem auto;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+#RedesFb {
+    display: block;
+    margin: 1rem 1rem;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+#RedesIg {
+    display: block;
+    margin: 1rem auto;
+    width: 5.3rem;
+    height: 5.3rem;
+
+}
+
+#divP {
+    display: flex;
+    transition: all .5s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgba(250, 250, 250, 0.7);
+
+}
+
+div {
+    a {
+        img {
+
+            &:hover {
+                transform: rotate(46deg) scale(1.2);
+
+                transition: all .4s;
+            }
+        }
+    }
+}

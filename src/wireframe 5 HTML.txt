@@ -1,3 +1,5 @@
+DESKTOP
+
 https://wireframe.cc/roXIby index
 
 https://wireframe.cc/uo1Umu contacto
@@ -7,3 +9,16 @@ https://wireframe.cc/yM4VmV Preguntas Frecuentes
 https://wireframe.cc/DyqFwI Acerca De
 
 https://wireframe.cc/EzbLju Trabajos
+
+MOBILE
+
+
+https://wireframe.cc/hbobWH index
+
+https://wireframe.cc/F4Wd5K trabajos
+
+https://wireframe.cc/DqIc2g acerca de
+
+https://wireframe.cc/KeXQDT preguntas frecuentes
+
+https://wireframe.cc/vfRSUR contacto
