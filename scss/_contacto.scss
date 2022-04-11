@@ -5,14 +5,14 @@
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: 1rem;
+    background-color: $bg-lightT;
+    margin: map-get($tamaños, s);
 }
 
 form {
     fieldset {
         label {
-            font-size: 2rem;
+            font-size: map-get($tamaños, m);
         }
     }
 }
@@ -23,6 +23,6 @@ form {
 
 .Form {
     display: block;
-    margin: 1rem;
+    margin: map-get($tamaños, s);
     color: rgb(0, 0, 0);
 }

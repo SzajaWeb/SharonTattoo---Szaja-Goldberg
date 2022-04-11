@@ -4,25 +4,34 @@
         grid-template-rows: repeat(6, 1fr);
     }
 
-    .Grid-Container1 div img {
-        display: flex;
-        width: 40rem;
-        border-radius: 1.5rem;
-        margin-left: 4.2rem;
-    }
+    .Grid-Container1 {
+        div {
+            img {
+                display: flex;
+                width: 40rem;
+                border-radius: 1.5rem;
+                margin-left: 4.2rem;
+            }
 
+        }
+    }
 }
+
 @media only screen and (max-width: 1030px) {
     .Grid-Container1 {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(8, 1fr);
     }
 
-    .Grid-Container1 div img {
-        display: flex;
-        width: 37rem;
-        border-radius: 1.5rem;
-        margin-left: 2rem;
+    .Grid-Container1 {
+        div {
+            img {
+                display: flex;
+                width: 37rem;
+                border-radius: 1.5rem;
+                margin-left: 2rem;
+            }
+        }
     }
 
     .BoxAcercaDe {
@@ -31,6 +40,7 @@
 
 
 }
+
 @media only screen and (max-width: 768px) {
     .Grid-Container1 {
         grid-template-columns: repeat(2, 1fr);
@@ -38,13 +48,17 @@
 
     }
 
-    .Grid-Container1 div img {
-        display: flex;
-        width: 35rem;
-        border-radius: 1.5rem;
-        margin-left: 1.8rem;
-    }
+    .Grid-Container1 {
+        div {
+            img {
+                display: flex;
+                width: 35rem;
+                border-radius: 1.5rem;
+                margin-left: 1.8rem;
+            }
 
+        }
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -53,11 +67,15 @@
         grid-template-rows: repeat(22, 1fr);
     }
 
-    .Grid-Container1 div img {
-        display: flex;
-        width: 35rem;
-        border-radius: 1.5rem;
-        margin-left: 4.6rem;
+    .Grid-Container1 {
+        div {
+            img {
+                display: flex;
+                width: 35rem;
+                border-radius: 1.5rem;
+                margin-left: 4.6rem;
+            }
+        }
     }
 
     .centradoImg {
@@ -71,7 +89,8 @@
         height: 60rem;
         width: 40rem;
     }
-    .clasebs{
+
+    .clasebs {
         width: 32rem;
         margin: 10px auto;
     }
@@ -86,11 +105,15 @@
         grid-template-rows: repeat(22, 1fr);
     }
 
-    .Grid-Container1 div img {
-        display: flex;
-        width: 32rem;
-        border-radius: 1.5rem;
-        margin-left: 2.8rem;
+    .Grid-Container1 {
+        div {
+            img {
+                display: flex;
+                width: 32rem;
+                border-radius: 1.5rem;
+                margin-left: 2.8rem;
+            }
+        }
     }
 
     .centradoImg {

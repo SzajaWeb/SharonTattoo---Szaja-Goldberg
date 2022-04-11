@@ -1,0 +1,2 @@
+para mejorar el SEO agrege en los titulos de cada seccion el nombre de la web con el nombre de la seccion para que al usuario le aparezca en la pestaña
+agregue texto en todos los alt en las img

@@ -1,0 +1,17 @@
+$bg-lightT: rgba(255, 255, 255, 0.7);
+
+@mixin claseP{
+    display: flex;
+    background-color: $bg-lightT;
+    border: solid;
+    height: auto;
+    width: 60rem;
+    padding: 1rem;
+}
+
+$tamaños: (
+    s:1rem,
+    m:2rem,
+    l:5rem,
+    xl:10rem
+)

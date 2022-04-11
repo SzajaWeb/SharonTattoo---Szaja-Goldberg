@@ -1,6 +1,6 @@
 ul {
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: $bg-lightT;
 }
 
 
@@ -63,15 +63,11 @@ ul {
     display: block;
     width: 12rem;
     margin: 10px;
-
-
 }
 
 ul {
 
     li {
-
-
         padding: 1rem;
         border: solid 1px;
         background-color: rgb(255, 255, 255);
@@ -80,7 +76,6 @@ ul {
         margin: 1rem;
 
         &:hover {
-
             transform: scale(0.8);
             transition: all .3s;
         }
