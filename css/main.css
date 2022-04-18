@@ -41,7 +41,7 @@ ul li a {
 
 #BtnHambTam .navbar-toggler {
   padding: 1rem 2rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -50,8 +50,8 @@ ul li a {
 
 #BtnHamb .navbar-toggler-icon {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
+  width: 3em;
+  height: 3em;
   vertical-align: middle;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,13 +211,13 @@ form fieldset label {
     border-radius: 1.5rem;
     margin-left: 4.2rem; } }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1281px) {
   .Grid-Container1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr); }
   .Grid-Container1 div img {
     display: flex;
-    width: 37rem;
+    width: 35rem;
     border-radius: 1.5rem;
     margin-left: 2rem; }
   .BoxAcercaDe {
@@ -229,7 +229,7 @@ form fieldset label {
     grid-template-rows: repeat(11, 1fr); }
   .Grid-Container1 div img {
     display: flex;
-    width: 35rem;
+    width: 33rem;
     border-radius: 1.5rem;
     margin-left: 1.8rem; } }
 
@@ -239,7 +239,7 @@ form fieldset label {
     grid-template-rows: repeat(22, 1fr); }
   .Grid-Container1 div img {
     display: flex;
-    width: 35rem;
+    width: 30rem;
     border-radius: 1.5rem;
     margin-left: 4.6rem; }
   .centradoImg {
@@ -260,7 +260,7 @@ form fieldset label {
     grid-template-rows: repeat(22, 1fr); }
   .Grid-Container1 div img {
     display: flex;
-    width: 32rem;
+    width: 29rem;
     border-radius: 1.5rem;
     margin-left: 2.8rem; }
   .centradoImg {
