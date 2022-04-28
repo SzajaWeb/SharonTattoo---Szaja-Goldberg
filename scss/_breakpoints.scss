@@ -17,7 +17,7 @@
     }
 }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 1800px) {
     .Grid-Container1 {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(8, 1fr);
@@ -78,11 +78,11 @@
         }
     }
 
-    .centradoImg {
-        width: 35rem;
-        height: 35rem;
-        margin-left: 3rem;
-    }
+    // .centradoImg {
+    //     width: 35rem;
+    //     height: 35rem;
+    //     margin-left: 3rem;
+    // }
 
     #Mapa {
         display: flex;

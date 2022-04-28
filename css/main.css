@@ -7,6 +7,14 @@
 html {
   font-size: 62.5%; }
 
+.ERROR_404 {
+  width: 100rem;
+  height: 93rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto; }
+
 body {
   background-image: url(../img/triang.webp);
   background-repeat: repeat;
@@ -211,7 +219,7 @@ form fieldset label {
     border-radius: 1.5rem;
     margin-left: 4.2rem; } }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 1800px) {
   .Grid-Container1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr); }
@@ -242,10 +250,6 @@ form fieldset label {
     width: 30rem;
     border-radius: 1.5rem;
     margin-left: 4.6rem; }
-  .centradoImg {
-    width: 35rem;
-    height: 35rem;
-    margin-left: 3rem; }
   #Mapa {
     display: flex;
     height: 60rem;
